@@ -1,8 +1,8 @@
 {
   "name": "is-valid-email",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Validate email address",
-  "main": "index.js",
+  "main": "is-valid-email.js",
   "directories": {
     "test": "test"
   },
