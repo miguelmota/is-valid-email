@@ -1,0 +1,29 @@
+{
+  "name": "is-valid-state",
+  "version": "0.0.1",
+  "description": "Validate U.S. state",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/is-valid-state"
+  },
+  "keywords": [
+    "slope",
+    "angle"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/is-valid-state/issues"
+  },
+  "homepage": "https://github.com/miguelmota/is-valid-state",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}
