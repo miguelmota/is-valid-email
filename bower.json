@@ -1,16 +1,16 @@
 {
-  "name": "is-valid-state",
-  "main": "is-valid-state.js",
+  "name": "is-valid-email",
+  "main": "is-valid-email.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/miguelmota/is-valid-state",
+  "homepage": "https://github.com/miguelmota/is-valid-email",
   "authors": [
     "Miguel Mota <miguelmota2@gmail.com>"
   ],
-  "description": "Validate U.S. state",
+  "description": "Validate email address",
   "keywords": [
     "validate",
     "validator",
-    "state"
+    "email"
   ],
   "ignore": [
     "**/.*",
