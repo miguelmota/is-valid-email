@@ -8,6 +8,10 @@ Validate email address
 npm install is-valid-email
 ```
 
+```bash
+bower install is-valid-email
+```
+
 # Usage
 
 ```javascript

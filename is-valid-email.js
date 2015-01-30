@@ -1,4 +1,4 @@
-(function(){
+;(function(root) {
 
   function isValidEmail(v) {
     if (!v) return false;
@@ -12,4 +12,17 @@
     window.isValidEmail = isValidEmail;
   }
 
-})();
+  if (typeof exports !== 'undefined') {
+    if (typeof module !== 'undefined' && module.exports) {
+      exports = module.exports = isValidEmail;
+    }
+    exports.isValidEmail = isValidEmail;
+  } else if (typeof define === 'function' && define.amd) {
+    define([], function() {
+      return isValidEmail;
+    });
+  } else {
+    root.isValidEmail = isValidEmail;
+  }
+
+})(this);

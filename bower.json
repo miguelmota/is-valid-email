@@ -1,7 +1,7 @@
 {
   "name": "is-valid-email",
   "main": "is-valid-email.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/miguelmota/is-valid-email",
   "authors": [
     "Miguel Mota <miguelmota2@gmail.com>"
