@@ -1,4 +1,4 @@
-(function(){
+(function(that){
 
   function isValidEmail(v) {
     if (!v) return false;
@@ -8,8 +8,14 @@
 
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = isValidEmail;
-  } else {
-    window.isValidEmail = isValidEmail;
+    return;
   }
+  if (typeof define === 'function' && define.amd) {
+    define(function() {
+      return isValidEmail;
+    });
+    return;
+  }
+  that['isValidEmail'] = isValidEmail;
 
-})();
+})(this);
