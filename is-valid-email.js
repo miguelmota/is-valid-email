@@ -6,12 +6,6 @@
     return re.test(v);
   }
 
-  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-    module.exports = isValidEmail;
-  } else {
-    window.isValidEmail = isValidEmail;
-  }
-
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
       exports = module.exports = isValidEmail;
