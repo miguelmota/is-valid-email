@@ -24,6 +24,8 @@ isValidEmail('foo...bar-5@qux.com') // false
 isValidEmail('fooqux.com') // false
 ```
 
+[RFC 2822 section 3.4.1 Addr-spec specification](http://tools.ietf.org/html/rfc2822#section-3.4.1)
+
 # License
 
 MIT
