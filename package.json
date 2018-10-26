@@ -1,6 +1,6 @@
 {
   "name": "is-valid-email",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Validate email address",
   "main": "is-valid-email.js",
   "directories": {
@@ -24,7 +24,7 @@
     "url": "https://github.com/miguelmota/is-valid-email/issues"
   },
   "homepage": "https://github.com/miguelmota/is-valid-email",
-  "dependencies": {
-    "tape": "^3.0.3"
+  "devDependencies": {
+    "tape": "^4.9.1"
   }
 }
